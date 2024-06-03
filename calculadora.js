@@ -1,5 +1,13 @@
-let carteira = 80
-let divida = -carteira
-let soma = carteira + divida
-//11:55 22.05.2024
-console.log(soma)
+let x = 50
+let y = 0
+let Calculo = x + y
+let a = "Nada bem!"
+let b = "tudo bem"
+if(
+    Calculo = 100
+) {
+    console.log(b)
+} else {
+    console.log(a)
+}
+console.log(Calculo)
