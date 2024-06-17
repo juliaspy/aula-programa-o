@@ -4,7 +4,7 @@ let Calculo = x + y
 let a = "Nada bem!"
 let b = "tudo bem"
 if(
-    Calculo = 100
+    Calculo == 100
 ) {
     console.log(b)
 } else {
