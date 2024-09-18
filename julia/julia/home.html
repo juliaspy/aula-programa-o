@@ -2,19 +2,25 @@
 
     <style>
         header {
-            background-color: rgb(255, 255, 255);
-            width: 100%;
-            height: 40px;
-            position: sticky;
-            bottom: 0;
+            align-items: center;
+            background-color: rgb(0, 0, 0);
+            color: antiquewhite;
+            display: flex;
+            justify-content: center;
             left: 0;
-        }
-        .logo {
-            background-color: rgb(77, 69, 69);
-            color: rgb(0, 0, 0);
+            top: 0;
+            display: flex;
+            right: 0;
+            position: fixed;
+            z-index: 1;            
         }
         .logo2 {
-            color: rgb(0, 0, 0)
+            color: rgb(255, 255, 255);
+            font-size: xx-large;
+            font-family:fantasy;
+            text-align: center;
+            align-items: center;
+            display: flex;
         }
         body {
             background-color: rgb(75, 65, 65);
@@ -23,7 +29,7 @@
             background-color: rgb(236, 218, 255);
             width: 100%;
             height: 40px;
-            position: fixed;
+            position: static;
             bottom: 0;  
             left: 0;
         }
@@ -32,12 +38,20 @@
             top: 0px;
             left: 0px;
             background-color: darkgray;
+            padding-top: 35px;
         }
         .centerHeader {
             background-color: gray;
         }
+        .seriesList {
+            text-align: center;
+        }
         .series {
             background-color: gainsboro;
+        }
+        .seriesImagem {
+            width: 450px;
+            height: 570px;
         }
     </style>
 
@@ -45,20 +59,16 @@
 
         <header>
             
-            <div class="logo">
-                Séries
-            </div>
             <div class="logo2">
                 Séries vistas em 17 anos
             </div>
 
         </header>
 
-           <body>
 
             <div class="center">
                 <div class="centerHeader">
-                    Séries que assisti em 17 anos
+                    Todas as séries vistas em toda a minha vida
                 </div>
                 <div class="seriesList">
                     <div class="series">
@@ -66,31 +76,164 @@
                             Chilling adventures of Sabrina
                         </h1>
                         <h2>
-                        Prestes a completar dezesseis anos, a jovem Sabrina Spellman (Kiernan Shipka) é obrigada a tomar uma decisão crucial que mudará sua vida para sempre. Ela deve escolher entre o mundo das bruxas e o mundo dos mortais, enquanto luta para proteger a família e os amigos de forças sombrias que os ameaçam
+                            A série é produzida pela Warner Bros. Television, em associação com a Berlanti Productions e a Archie Comics.
                         </h2>
                         <p>
-                        LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM 
+                            Prestes a completar dezesseis anos, a jovem Sabrina Spellman (Kiernan Shipka) é obrigada a tomar uma decisão crucial que mudará sua vida para sempre.<br>
+                            Ela deve escolher entre o mundo das bruxas e o mundo dos mortais, enquanto luta para proteger a família e os amigos de forças sombrias que os ameaçam.
                         </p>
-                    <img src="https://m.media-amazon.com/images/M/MV5BOTQyMDYwNDMyOV5BMl5BanBnXkFtZTgwMjM4NTIzNjM@._V1_FMjpg_UX1000_.jpg"/>
+                    <img class="seriesImagem" src="https://www.tvguide.com/a/img/catalog/provider/1/1/1-9507341466.jpg"/>
                 </div>
                 <div class="series">
                     <h1>
-                        Chilling adventures of Sabrina
+                        Shadowhunters
                     </h1>
                     <h2>
-                        Prestes a completar dezesseis anos, a jovem Sabrina Spellman (Kiernan Shipka) é obrigada a tomar uma decisão crucial que mudará sua vida para sempre. Ela deve escolher entre o mundo das bruxas e o mundo dos mortais, enquanto luta para proteger a família e os amigos de forças sombrias que os ameaçam
+                        Produção criada por Ed Decter (Helix, Unforgettable, The Client List), que adapta a série literária de Cassandra Clare, Os Instrumentos Mortais/The Mortal Instruments.
                     </h2>
                     <p>
-                        LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM 
+                        Em Shadowhunters, Clary Fray (Katherine McNamara) é uma jovem de 18 anos que vê sua vida mudar completamente quando descobre ser parte de uma raça de meio humanos e meio anjos responsável por caçar demônios.<br>
+                        Ela se une aos jovens caçadores Jace (Dominic Sherwood), Alec (Matthew Daddario) e Isabelle (Emeraude Toubia) e passa a proteger o mundo de vampiros, lobisomens e monstros malignos.
                     </p>
-                    <img src="https://m.media-amazon.com/images/M/MV5BOTQyMDYwNDMyOV5BMl5BanBnXkFtZTgwMjM4NTIzNjM@._V1_FMjpg_UX1000_.jpg"/>
+                    <img class="seriesImagem" src="https://img.elo7.com.br/product/zoom/26B1375/big-poster-serie-shadowhunters-lo01-tamanho-90x60-cm-nerd.jpg"/>
                 </div>
+                <div class="series">
+                    <h1>
+                        Skam Noruega
+                    </h1>
+                    <h2>
+                        É produzida pela NRK P3, que faz parte da emissora NRK. A série foi exibida originalmente apenas no site da NRK.
+                    </h2>
+                    <p>
+                        A série retrata a vida cotidiana de adolescentes da Hartvig Nissen (Hartvig Nissens Skole), uma conceituada escola no bairro rico de Frogner, em Oslo, acompanhando seus problemas, escândalos e a rotina do dia. <br>
+                        Cada temporada muda de protagonista com um ponto de vista diferente.
+                    </p>
+                    <img class="seriesImagem" src="https://i.pinimg.com/originals/99/90/b0/9990b08fadd9073c7e3fe003d7f736f2.jpg"/>
                 </div>
-                Fim do center
+                <div class="series">
+                    <h1>
+                        Stranger Things
+                    </h1>
+                    <h2>
+                        Stranger Things foi criado por Matt e Ross Duffer, conhecidos profissionalmente como The Duffer Brothers ("os irmãos Duffer"). 
+                    </h2>
+                    <p>
+                        Situada na cidade ficcional de Hawkins, Indiana, a trama começa no ano de 1983 com o desaparecimento do garoto Will.<br>
+                        A investigação sobre as estranhas circunstâncias envolvendo seu sumiço leva um grupo de pré-adolescentes a conhecer uma garota com poderes de telecinese e a descobrir uma passagem para um Mundo Invertido.
+                    </p>
+                    <img class="seriesImagem" src="https://cdn.europosters.eu/image/750/posters/stranger-things-summer-of-85-i76122.jpg"/>
+                </div>
+                <div class="series">
+                    <h1>
+                        Drive to survive
+                    </h1>
+                    <h2>
+                        A série será produzida por James Gay-Rees e Paul Martin para a produtora Box to Box Films.
+                    </h2>
+                    <p>
+                        Fórmula 1 - Dirigir para Viver dá um mergulho no universo da Fórmula 1, desde os bastidores do Campeonato Mundial até o funcionamento das dependências de autódromos. <br>
+                        Velocidade, tensão e rivalidade, com direito a depoimentos exclusivos de pilotos e diretores do torneio principal.
+                    </p>
+                    <img class="seriesImagem" src="https://pbs.twimg.com/media/FNQhiW-XsAAV6eO.jpg:large"/>
+                </div>
+                <div class="series">
+                    <h1>
+                        Young royals
+                    </h1>
+                    <h2>
+                        Young Royals é uma série de televisão sueca de drama, escrita por Lisa Ambjörn, Sofie Forsman e Tove Forsman.
+                    </h2>
+                    <p>
+                        Wilhelm (Edvin Ryding) é um jovem príncipe sueco que está se adaptando ao seu novo colégio interno de elite, chamado Hillerska.<br>
+                        Porém, seguir o seu coração pode ser mais arriscado e desafiador do que ele imaginava. <br>
+                        Agora ele precisará lidar com novos romances, amizades e polêmicas.
+                    </p>
+                    <img style="width: 510px; height: 570px;" class="seriesImagem" src="https://pbs.twimg.com/media/GH5km4OXMAI8Wnq.jpg"/>
+                </div>
+                <div class="series">
+                    <h1>
+                        Heartstopper
+                    </h1>
+                    <h2>
+                        A série é baseada nos quadrinhos de Alice Oseman, que começou a publicar sua história no Tumblr em 2016.
+                    </h2>
+                    <p>
+                        Wilhelm (Edvin Ryding) é um jovem príncipe sueco que está se adaptando ao seu novo colégio interno de elite, chamado Hillerska.<br>
+                        Porém, seguir o seu coração pode ser mais arriscado e desafiador do que ele imaginava. <br>
+                        Agora ele precisará lidar com novos romances, amizades e polêmicas.
+                    </p>
+                    <img style="width: 450px; height: 570px;" class="seriesImagem" src="https://br.web.img2.acsta.net/pictures/22/04/13/20/15/5784725.jpg"/>
+                </div>
+                <div class="series">
+                    <h1>
+                        Anne with an e
+                    </h1>
+                    <h2>
+                        A série foi modelada pela escritora e produtora vencedora do Emmy, Moira Walley-Beckett. 
+                    </h2>
+                    <p>
+                        Depois de treze anos sofrendo no sistema de assistência social, a orfã Anne é mandada para morar com uma solteirona e seu irmão.<br>
+                        Munida de sua imaginação e de seu intelecto, a pequena Anne vai transformar a vida de sua família adotiva e da cidade que lhe abrigou, lutando pela sua aceitação e pelo seu lugar no mundo.
+                    </p>
+                    <img class="seriesImagem" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17155833_b_v13_aa.jpg"/>
+                </div>
+                <div class="series">
+                    <h1>
+                        Twenty five twenty one
+                    </h1>
+                    <h2>
+                        Dirigida por Jung Ji-hyun e estrelada por Kim Tae-ri, Nam Joo-hyuk, Bona, Choi Hyun-wook e Lee Joo-myung.
+                    </h2>
+                    <p>
+                        Em uma época difícil em que os sonhos parecem fora de alcance, uma jovem esgrimista permanece firme em suas ambições e conhece um jovem que busca reconstruir sua vida.<br>
+                        Aos 22 e 18 anos, pela primeira vez eles falaram seus nomes um para outro; e aos 25 e 21 anos, eles se apaixonaram
+                    </p>
+                    <img style= "width: 430px; height: 570px;" class="seriesImagem" src="https://i.pinimg.com/originals/a1/6a/de/a16ade5289b0232caf4b9466217c6cac.jpg"/>
+                </div>
+                <div class="series">
+                    <h1>
+                        Twinkling watermelon
+                    </h1>
+                    <h2>
+                        Dirigida por Jung Ji-hyun e estrelada por Kim Tae-ri, Nam Joo-hyuk, Bona, Choi Hyun-wook e Lee Joo-myung.
+                    </h2>
+                    <p>
+                        A história de um garoto que vive uma vida dupla entre um aluno modelo e um membro de uma banda que consegue escapar do tempo e conhece seu pai de 18 anos.<br>
+                        Os dois vão construir amizades lá.
+                    </p>
+                    <img style= "width: 430px; height: 560px;" class="seriesImagem" src="https://ih1.redbubble.net/image.5344784621.9085/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"/>
+                </div>
+                <div class="series">
+                    <h1>
+                        The society
+                    </h1>
+                    <h2>
+                        A série foi criada por Christopher Keyser, que também atuou como roteirista e produtor executivo, com Marc Webb pronto para dirigir. 
+                    </h2>
+                    <p>
+                        Transportado misteriosamente para uma cidade paralela, muito parecida com a original onde moram, um grupo de adolescentes descobre que seus pais desapareceram sem deixar rastros. <br>
+                        Agora, eles terão de lutar, se quiserem sobreviver.
+                    </p>
+                    <img class="seriesImagem" src="https://br.web.img2.acsta.net/pictures/19/06/18/12/09/4795420.jpg?coixp=51&coiyp=61"/>
+                </div>
+                <div class="series">
+                    <h1>
+                        Legacies
+                    </h1>
+                    <h2>
+                        A série foi criada por Christopher Keyser, que também atuou como roteirista e produtor executivo, com Marc Webb pronto para dirigir. 
+                    </h2>
+                    <p>
+                    A série acompanha 'Hope Mikaelson, descendente da linhagem mais poderosa de vampiros, lobisomens e bruxas, frequenta a Escola Salvatore para Jovens e Superdotados. <br>
+                    Ela encontra um refúgio onde ela pode aprender a controlar suas habilidades e impulsos sobrenaturais.
+                    </p>
+                    <img class="seriesImagem" src="https://uauposters.com.br/media/catalog/product/2/6/267220220222-uau-posters-legacies-legados-series-2.jpg"/>
+                </div>
             </div>
-            
+                
+            Fim do center
+            </div>
            
-           </body>
 
         <footer>
             <div>
